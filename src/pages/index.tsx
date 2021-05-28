@@ -78,10 +78,7 @@ const IndexPage: NextPage = () => {
               </div>
             </div>
             <div className="w-full sm:w-1/2 p-6">
-              <img
-                src="/demo/nextjs-landing-page/assets/images/feature.svg"
-                alt="First feature alt text"
-              />
+              <img src="/images/feature.svg" alt="First feature alt text" />
             </div>
           </div>
           <div className="mt-20 flex flex-wrap items-center flex-row-reverse">
@@ -93,10 +90,7 @@ const IndexPage: NextPage = () => {
               </div>
             </div>
             <div className="w-full sm:w-1/2 p-6">
-              <img
-                src="/demo/nextjs-landing-page/assets/images/feature2.svg"
-                alt="Second feature alt text"
-              />
+              <img src="/images/feature2.svg" alt="Second feature alt text" />
             </div>
           </div>
           <div className="mt-20 flex flex-wrap items-center">
@@ -108,10 +102,7 @@ const IndexPage: NextPage = () => {
               </div>
             </div>
             <div className="w-full sm:w-1/2 p-6">
-              <img
-                src="/demo/nextjs-landing-page/assets/images/feature3.svg"
-                alt="Third feature alt text"
-              />
+              <img src="/images/feature3.svg" alt="Third feature alt text" />
             </div>
           </div>
         </div>

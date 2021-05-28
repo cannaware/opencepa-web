@@ -163,7 +163,7 @@ exports[`Index page should match the snapshot 1`] = `
       >
         <img
           alt="First feature alt text"
-          src="/demo/nextjs-landing-page/assets/images/feature.svg"
+          src="/images/feature.svg"
         />
       </div>
     </div>
@@ -189,7 +189,7 @@ exports[`Index page should match the snapshot 1`] = `
       >
         <img
           alt="Second feature alt text"
-          src="/demo/nextjs-landing-page/assets/images/feature2.svg"
+          src="/images/feature2.svg"
         />
       </div>
     </div>
@@ -215,7 +215,7 @@ exports[`Index page should match the snapshot 1`] = `
       >
         <img
           alt="Third feature alt text"
-          src="/demo/nextjs-landing-page/assets/images/feature3.svg"
+          src="/images/feature3.svg"
         />
       </div>
     </div>
