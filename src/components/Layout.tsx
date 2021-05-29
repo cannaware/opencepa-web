@@ -1,5 +1,4 @@
 import Head from 'next/head';
-
 import type { FC } from 'react';
 
 const Layout: FC = ({ children }) => {

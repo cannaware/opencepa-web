@@ -1,8 +1,7 @@
 import { Page } from '@components/Page';
 import { PageContent } from '@components/PageContent';
-import Link from 'next/link';
-
 import type { NextPage } from 'next';
+import Link from 'next/link';
 
 const AcercaPage: NextPage = () => {
   return (
