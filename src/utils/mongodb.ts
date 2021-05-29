@@ -39,11 +39,11 @@ export const connectToDatabase = async (): Promise<MongoConnection> => {
     cached = global.mongo = { conn: null, promise: null };
   }
 
-  if (cached?.conn) {
+  if (cached.conn) {
     return cached.conn;
   }
 
-  if (!cached?.promise) {
+  if (!cached.promise) {
     const opts = {
       useNewUrlParser: true,
       useUnifiedTopology: true,
