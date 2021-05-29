@@ -22,7 +22,10 @@
     "plugin:jsx-a11y/recommended",
     "plugin:prettier/recommended"
   ],
-  "plugins": ["simple-import-sort", "import"],
+  "plugins": [
+    "simple-import-sort",
+    "import"
+  ],
   "rules": {
     "simple-import-sort/imports": "error",
     "simple-import-sort/exports": "error",
