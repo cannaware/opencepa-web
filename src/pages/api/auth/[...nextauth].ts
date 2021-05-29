@@ -14,6 +14,6 @@ export default NextAuth({
     jwt: true,
     maxAge: 30 * 24 * 60 * 60, // 30 days
   },
-  database: process.env.NEXTAUTH_DATABASE_URL,
+  database: process.env.MONGODB_URI,
   debug: false,
 });
