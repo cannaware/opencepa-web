@@ -5,7 +5,7 @@
     "es6": true
   },
   "parserOptions": {
-    "ecmaVersion": 8,
+    "ecmaVersion": 12,
     "sourceType": "module"
   },
   "ignorePatterns": [
@@ -16,15 +16,18 @@
   ],
   "extends": [
     "eslint:recommended",
-    "plugin:@typescript-eslint/recommended",
     "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended",
     "plugin:react-hooks/recommended",
     "plugin:jsx-a11y/recommended",
     "plugin:prettier/recommended"
   ],
+  "parser": "@typescript-eslint/parser",
   "plugins": [
     "simple-import-sort",
-    "import"
+    "import",
+    "react",
+    "@typescript-eslint"
   ],
   "rules": {
     "simple-import-sort/imports": "error",
@@ -47,20 +50,12 @@
       },
       "env": {
         "browser": true,
-        "node": true,
         "es6": true
       },
       "rules": {
         "react/prop-types": "off",
         "react/react-in-jsx-scope": "off",
         "jsx-a11y/anchor-is-valid": "off",
-        "simple-import-sort/imports": "off",
-        "import/order": [
-          "error",
-          {
-            "newlines-between": "always"
-          }
-        ],
         "@typescript-eslint/no-unused-vars": [
           "error"
         ],
